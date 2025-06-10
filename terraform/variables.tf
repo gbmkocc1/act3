@@ -7,7 +7,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_key_name" {
-  description = "github-keypair"
+  default = "github-keypair"
 }
 
 variable "github_repo" {
