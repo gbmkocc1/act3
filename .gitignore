@@ -1,0 +1,56 @@
+# Terraform state files and backups
+*.tfstate
+*.tfstate.*
+.crash
+*.backup
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# CLI history and logs
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore override files (used for local testing)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# SSH keys (if stored by accident)
+*.pem
+*.pub
+
+# Node or Python (if used in GitHub Actions/scripts)
+node_modules/
+venv/
+.env
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Git patch files
+*.patch
+*.diff
+
+# Git logs and temp
+git-log.txt
+git-status.txt
+git-diff.txt
+
+# Git operation dirs
+.git-rewrite/
+.git-merge/
+.git-rebase-merge/
+.git/index.lock
